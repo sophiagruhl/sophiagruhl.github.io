@@ -4,7 +4,7 @@ let bucketNameUrl = 'https://sjg-portfolio-images.s3.amazonaws.com';
 function preload() {
     breadImage = loadImage(bucketNameUrl + "/IMG_3074.jpg");
     bananaBreadImage = loadImage(bucketNameUrl + "/banana-bread.jpg");
-    breadEarlyImage = loadImage(bucketNameUrl + "/break-early.jpg");
+    breadEarlyImage = loadImage(bucketNameUrl + "/bread-early.jpg");
     coneCakeImage = loadImage(bucketNameUrl + "/cone-cake.jpg");
     cupcakesImage = loadImage(bucketNameUrl + "/cupcakes.jpg");
     logCakeImage = loadImage(bucketNameUrl + "/log-cake.jpg")
