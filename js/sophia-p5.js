@@ -1,8 +1,15 @@
 let introText = 'Hello, my name is Sophia Gruhl and this website ';
+let bucketNameUrl = 'https://sjg-portfolio-images.s3.amazonaws.com';
 
 function preload() {
-    breadImage = loadImage("https://sjg-portfolio-images.s3.amazonaws.com/IMG_3074.jpg");
-    bananaBreadImage = loadImage("https://sjg-portfolio-images.s3.amazonaws.com/banana-bread.jpg");
+    breadImage = loadImage(bucketNameUrl + "/IMG_3074.jpg");
+    bananaBreadImage = loadImage(bucketNameUrl + "/banana-bread.jpg");
+    breadEarlyImage = loadImage(bucketNameUrl + "/break-early.jpg");
+    coneCakeImage = loadImage(bucketNameUrl + "/cone-cake.jpg");
+    cupcakesImage = loadImage(bucketNameUrl + "/cupcakes.jpg");
+    logCake Image = loadImage(bucketNameUrl + "/log-cake.jpg")
+    strawberryCakeGradientImage = loadImage(bucketNameUrl + "/strawberry-cake-gradient.jpg")
+    
 }
 
 function setup() {
