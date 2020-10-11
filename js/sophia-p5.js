@@ -1,6 +1,6 @@
 
 function preload() {
-    
+    breadImage = loadImage("https://sjg-portfolio-images.s3.amazonaws.com/IMG_3074.jpg");
 }
 
 function setup() {
