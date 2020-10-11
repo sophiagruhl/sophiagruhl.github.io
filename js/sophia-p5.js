@@ -7,7 +7,7 @@ function preload() {
     breadEarlyImage = loadImage(bucketNameUrl + "/break-early.jpg");
     coneCakeImage = loadImage(bucketNameUrl + "/cone-cake.jpg");
     cupcakesImage = loadImage(bucketNameUrl + "/cupcakes.jpg");
-    logCake Image = loadImage(bucketNameUrl + "/log-cake.jpg")
+    logCakeImage = loadImage(bucketNameUrl + "/log-cake.jpg")
     strawberryCakeGradientImage = loadImage(bucketNameUrl + "/strawberry-cake-gradient.jpg")
     
 }
