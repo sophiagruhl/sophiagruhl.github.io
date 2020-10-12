@@ -8,14 +8,16 @@ function preload() {
     coneCakeImage = loadImage(bucketNameUrl + "/cone-cake.jpg");
     cupcakesImage = loadImage(bucketNameUrl + "/cupcakes.jpg");
     logCakeImage = loadImage(bucketNameUrl + "/log-cake.jpg")
-    strawberryCakeGradientImage = loadImage(bucketNameUrl + "/strawberry-cake-gradient.jpg")
+    strawberryCakeGradientImage = loadImage(bucketNameUrl + "/strawberry-cake-gradient.jpg");
     
 }
 
 function setup() {
-  createCanvas(1000, 1000); 
+  createCanvas(1100, 1100); 
   background(255,255,255);
+  //Initialize the opening text
   textSize(32);
+  textFont('Comic Sans MS');
   text(introText, 10, 30);
   fill(0, 102, 153, 51);
 }
